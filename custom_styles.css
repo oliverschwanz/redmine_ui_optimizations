@@ -1,0 +1,35 @@
+
+fieldset.tabular.mini {
+  height: 1em;
+  overflow: hidden;
+  border-bottom: 2px dashed teal;
+}
+
+table.list.issues td.status,
+table.list.issues thead th[title*="Status"],
+table.list.issues td.list,
+table.list.issues thead th[title*="Ticketphase"],
+table.list.issues td.assigned_to,
+table.list.issues thead th[title*="Zugewiesen an"] {
+	width: 1px;
+	white-space: normal;
+}
+
+table.list.issues thead th[title*="voraussichtlicher"] a,
+table.list.issues thead th[title*="Aufgewendete"] a,
+table.list.issues thead th[title*="Kundenfreigabe"] a,
+table.list.issues thead th[title*="Wartungsrelevant"] a {
+	display: block;
+	width: 50px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+table.list.issues td.cf_6.bool[data-bool="Ja"] {
+	color: #090;
+	font-weight: bold;
+}
+table.list.issues td.cf_6.bool[data-bool="Nein"] {
+	color: #900;
+	font-weight: bold;
+}
